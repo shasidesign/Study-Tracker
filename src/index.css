@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Immersive & Dynamic Technical Dashboard Background Textures */
+/* 1. Cyber Grid (Default) */
+.bg-theme-cyber-light {
+  background-color: #F6F7FB;
+  background-image: 
+    radial-gradient(circle at 10% 10%, rgba(59, 130, 246, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 90% 20%, rgba(99, 102, 241, 0.07) 0%, transparent 45%),
+    linear-gradient(to right, rgba(0, 102, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 102, 255, 0.03) 1px, transparent 1px),
+    radial-gradient(rgba(55, 53, 47, 0.08) 1.2px, transparent 1.2px);
+  background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px, 20px 20px;
+}
+
+.bg-theme-cyber-dark {
+  background-color: #0B0D12;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.14) 0%, transparent 45%),
+    radial-gradient(circle at 85% 25%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.08) 1.2px, transparent 1.2px);
+  background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px, 20px 20px;
+}
+
+/* 2. Deep Nebula (Cosmic Purple) */
+.bg-theme-nebula-light {
+  background-color: #F8F6FD;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(168, 85, 247, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(236, 72, 153, 0.1) 0%, transparent 50%),
+    linear-gradient(to right, rgba(147, 51, 234, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(147, 51, 234, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+}
+
+.bg-theme-nebula-dark {
+  background-color: #090714;
+  background-image: 
+    radial-gradient(circle at 20% 15%, rgba(168, 85, 247, 0.22) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.18) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.15) 0%, transparent 60%),
+    radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 24px 24px;
+}
+
+/* 3. Aurora Emerald (Northern Glow) */
+.bg-theme-aurora-light {
+  background-color: #F3FAF7;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.1) 0%, transparent 45%),
+    radial-gradient(circle at 90% 80%, rgba(6, 182, 212, 0.1) 0%, transparent 50%),
+    linear-gradient(to right, rgba(16, 185, 129, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(16, 185, 129, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+}
+
+.bg-theme-aurora-dark {
+  background-color: #051012;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 85% 75%, rgba(6, 182, 212, 0.18) 0%, transparent 50%),
+    radial-gradient(circle at 50% 90%, rgba(52, 211, 153, 0.12) 0%, transparent 40%),
+    linear-gradient(to right, rgba(20, 184, 166, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(20, 184, 166, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+}
+
+/* 4. Sunset Horizon (Warm Amber) */
+.bg-theme-sunset-light {
+  background-color: #FAF7F2;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(245, 158, 11, 0.1) 0%, transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(244, 63, 94, 0.08) 0%, transparent 50%),
+    radial-gradient(rgba(180, 83, 9, 0.07) 1.2px, transparent 1.2px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+}
+
+.bg-theme-sunset-dark {
+  background-color: #120D0B;
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(245, 158, 11, 0.18) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(244, 63, 94, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 50% 10%, rgba(251, 146, 60, 0.12) 0%, transparent 45%),
+    radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 28px 28px;
+}
+
+/* 5. Midnight OLED (Minimal Deep Dark) */
+.bg-theme-midnight-light {
+  background-color: #FAFAFA;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px, 32px 32px;
+}
+
+.bg-theme-midnight-dark {
+  background-color: #030406;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.1) 0%, transparent 60%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* Glassmorphism panel helper */
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(235, 235, 233, 0.8);
+  box-shadow: 0 10px 30px -10px rgba(0, 102, 255, 0.05);
+}
+
+.glass-panel-dark {
+  background: rgba(22, 24, 29, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Ambient floating lighting animations */
+@keyframes floatGlow1 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); opacity: 0.7; }
+  50% { transform: translate(30px, -25px) scale(1.12); opacity: 0.9; }
+}
+
+@keyframes floatGlow2 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); opacity: 0.6; }
+  50% { transform: translate(-35px, 20px) scale(1.15); opacity: 0.85; }
+}
+
+@keyframes floatGlow3 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); opacity: 0.5; }
+  50% { transform: translate(20px, 30px) scale(1.08); opacity: 0.8; }
+}
+
+.animate-ambient-glow-1 {
+  animation: floatGlow1 16s ease-in-out infinite;
+}
+
+.animate-ambient-glow-2 {
+  animation: floatGlow2 20s ease-in-out infinite;
+}
+
+.animate-ambient-glow-3 {
+  animation: floatGlow3 24s ease-in-out infinite;
+}
+
+/* Custom scrollbar styling for slick executive feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}

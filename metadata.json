@@ -1,0 +1,6 @@
+{
+  "name": "Study & Personal Growth Tracker",
+  "description": "Executive-grade productivity dashboard and personal growth tracker for B.Tech Data Science and Tech professionals, featuring automated analytics, skill tracking, daily reflections, goal management, reminders, quote of the day, achievements, and formula guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

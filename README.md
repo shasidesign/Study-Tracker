@@ -1,5 +1,7 @@
 📚 Study Tracker
 Study Tracker is a productivity tool designed to help learners organize, monitor, and improve their study habits. It provides an intuitive interface to log study sessions, track progress across subjects, and visualize growth over time.
+This is the website
+https://study-personal-growth-tracker.ai.studio
 
 ✨ Key Features
 📊 Session Logging – Record study hours, topics, and notes.
